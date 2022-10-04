@@ -5,6 +5,7 @@ import { useLayoutEffect } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { AdjustmentsHorizontalIcon, ChevronDownIcon, MagnifyingGlassIcon, UserIcon } from 'react-native-heroicons/outline'
 import Categories from '../components/Categories';
+import FeaturedRow from '../components/FeaturedRow';
 
 const HomeScreen = () => {
 
@@ -61,7 +62,26 @@ const HomeScreen = () => {
         {/*categories*/}
         <Categories />
         
-        {/*featured rows*/}
+        {/*featured*/}
+        <FeaturedRow 
+          id='123'
+          title='Featured Row'
+          description='Paid placement from our partners'
+          />
+
+        {/*Tasty Discounts*/}
+        <FeaturedRow 
+          id='1234'
+          title='Tasty Discounts'
+          description="Everyone's been enjoying these tasty discounts!"
+          />
+
+        {/*Offers near you*/}
+        <FeaturedRow 
+          id='12345'
+          title='Offers near you'
+          description='Why not support your local restaurant tonight!'
+          />  
       </ScrollView>
 
 
