@@ -12,11 +12,14 @@
     "@heroicons/react": "^2.0.10",
     "@react-navigation/native": "^6.0.12",
     "@react-navigation/native-stack": "^6.8.0",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
     "expo": "~46.0.9",
     "expo-status-bar": "~1.4.0",
     "heroicons": "^2.0.10",
     "nativewind": "^2.0.9",
     "react": "18.0.0",
+    "react-dom": "18.0.0",
     "react-native": "0.69.6",
     "react-native-heroicons": "^3.0.0",
     "react-native-safe-area-context": "4.3.1",
@@ -26,7 +29,8 @@
     "tailwindcss-react-native": "^1.7.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
     "tailwindcss": "^3.1.8"
   },
   "private": true
