@@ -77,7 +77,13 @@ const HomeScreen = () => {
       </View>
 
       {/*Body*/}
-      <ScrollView className="bg-gray-100 px-4">
+      
+      <ScrollView 
+         contentContainerStyle={{
+          paddingBottom: 300,
+         }}
+         className="bg-gray-100 px-4">
+        
         {/*categories*/}
         <Categories />
         
@@ -85,6 +91,7 @@ const HomeScreen = () => {
 
         {featuredCategories?.map((category) => {
           return(
+          
           <FeaturedRow 
             key={category._id}
             id={category._id}
@@ -95,9 +102,10 @@ const HomeScreen = () => {
 
         
         
-
+      
         
       </ScrollView>
+      
 
 
     </View> 

@@ -23,9 +23,8 @@ const FeaturedRow = ( {id, title, description} ) => {
       setRestaurants(data.restaurants)
       
     })
-  }, []);
+  }, [id]);
 
-  console.log(restaurants[0])
 
   return (
     
